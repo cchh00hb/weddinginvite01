@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Sarah & Thomas - Mariage</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Great+Vibes&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== PAGE INTRO (Couverture) ===================== -->
+  <section id="intro" class="intro">
+    <div class="intro-overlay"></div>
+    <div class="intro-frame">
+      <div class="frame-corner frame-top-left"></div>
+      <div class="frame-corner frame-top-right"></div>
+      <div class="frame-corner frame-bottom-left"></div>
+      <div class="frame-corner frame-bottom-right"></div>
+
+      <div class="intro-content">
+        <p class="intro-subtitle">Nous nous marions</p>
+        <h1 class="intro-names">Sarah <span class="ampersand">&</span> Thomas</h1>
+        <div class="intro-date">12 Septembre 2026</div>
+        <div class="ornament">&#10044;</div>
+        <button id="btn-ouvrir" class="btn-ouvrir">Ouvrir</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PAGE PRINCIPALE ===================== -->
+  <main id="main-content" class="main-content">
+
+    <!-- Salutation -->
+    <section class="section section-salutation reveal">
+      <div class="section-ornament">&#10053;</div>
+      <h2 class="section-title">Chers famille et amis</h2>
+      <p class="section-text">
+        Avec une immense joie, nous avons le plaisir de vous inviter
+        à célébrer notre union. Votre présence serait pour nous
+        le plus beau des cadeaux.
+      </p>
+      <div class="section-ornament">&#10053;</div>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section class="section section-countdown reveal">
+      <h2 class="section-title">Compte à rebours</h2>
+      <div id="countdown" class="countdown">
+        <div class="countdown-item">
+          <span id="countdown-days" class="countdown-number">000</span>
+          <span class="countdown-label">Jours</span>
+        </div>
+        <div class="countdown-item">
+          <span id="countdown-hours" class="countdown-number">00</span>
+          <span class="countdown-label">Heures</span>
+        </div>
+        <div class="countdown-item">
+          <span id="countdown-minutes" class="countdown-number">00</span>
+          <span class="countdown-label">Minutes</span>
+        </div>
+        <div class="countdown-item">
+          <span id="countdown-seconds" class="countdown-number">00</span>
+          <span class="countdown-label">Secondes</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programme de la journée -->
+    <section class="section section-programme reveal">
+      <h2 class="section-title">Programme</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-time">14h00</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-desc">
+            <h3>Accueil des invités</h3>
+            <p>Rassemblement et bienvenue</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-time">15h00</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-desc">
+            <h3>Cérémonie</h3>
+            <p>Échange des voeux</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-time">17h00</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-desc">
+            <h3>Vin d'honneur</h3>
+            <p>Cocktail et photos</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-time">20h00</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-desc">
+            <h3>Dîner & Soirée</h3>
+            <p>Repas, danse et célébration</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Localisation -->
+    <section class="section section-location reveal">
+      <h2 class="section-title">Lieu</h2>
+      <div class="location-card">
+        <div class="location-icon">&#9962;</div>
+        <h3>Château de Vaux-le-Vicomte</h3>
+        <p>77950 Maincy, France</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=Château+de+Vaux-le-Vicomte+77950+Maincy+France"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn-location">
+          Voir sur Maps
+        </a>
+      </div>
+    </section>
+
+    <!-- Dress Code -->
+    <section class="section section-dresscode reveal">
+      <h2 class="section-title">Dress Code</h2>
+      <p class="section-text">Tenue élégante de rigueur</p>
+      <div class="dresscode-colors">
+        <span class="color-swatch" style="background:#FAF3E0;" title="Blanc cassé"></span>
+        <span class="color-swatch" style="background:#722F37;" title="Bordeaux"></span>
+        <span class="color-swatch" style="background:#C9A84C;" title="Doré"></span>
+        <span class="color-swatch" style="background:#1a1a1a;" title="Noir"></span>
+      </div>
+    </section>
+
+    <!-- Contact / RSVP -->
+    <section class="section section-rsvp reveal">
+      <h2 class="section-title">Confirmez votre présence</h2>
+      <p class="section-text">
+        Merci de confirmer votre présence avant le <strong>1er Août 2026</strong>
+      </p>
+      <a href="tel:+33612345678" class="btn-rsvp">Nous contacter</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer reveal">
+      <div class="footer-ornament">&#10044;</div>
+      <p class="footer-text">Sarah & Thomas</p>
+      <p class="footer-date">12 . 09 . 2026</p>
+      <p class="footer-thanks">Au plaisir de partager ce jour avec vous</p>
+    </footer>
+
+  </main>
+
+  <!-- Audio (l'utilisateur ajoutera son fichier dans assets/) -->
+  <audio id="bg-music" loop preload="auto">
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
